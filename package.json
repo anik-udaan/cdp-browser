@@ -1,0 +1,45 @@
+{
+  "name": "cdp-browser",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "CDP-based browser control CLI for coding agents",
+  "license": "MIT",
+  "keywords": [
+    "cdp",
+    "chrome-devtools-protocol",
+    "browser-automation",
+    "coding-agents",
+    "cli"
+  ],
+  "bin": {
+    "cdp-browser": "bin/browser.js"
+  },
+  "files": [
+    "bin",
+    "lib",
+    "skills",
+    "README.md",
+    "SKILL.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "scripts": {
+    "check": "node bin/browser.js --help",
+    "pack:dry-run": "npm pack --dry-run",
+    "publish:npm": "npm publish --access public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sids/cdp-browser.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sids/cdp-browser/issues"
+  },
+  "homepage": "https://github.com/sids/cdp-browser#readme",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
+  }
+}

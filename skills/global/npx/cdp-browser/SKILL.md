@@ -39,7 +39,7 @@ npx -y cdp-browser net-summary
 ## Version pinning (recommended for reproducibility)
 
 ```bash
-npx -y cdp-browser@0.1.0 nav https://example.com
+npx -y cdp-browser@0.1.1 nav https://example.com
 ```
 
 ## Command reference

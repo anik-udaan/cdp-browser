@@ -24,7 +24,7 @@ Project `package.json` should contain:
 ```json
 {
   "dependencies": {
-    "cdp-browser": "^0.1.0"
+    "cdp-browser": "^0.1.1"
   }
 }
 ```

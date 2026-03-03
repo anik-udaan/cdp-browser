@@ -39,7 +39,7 @@ bunx cdp-browser net-summary
 ## Version pinning (recommended for reproducibility)
 
 ```bash
-bunx cdp-browser@0.1.0 nav https://example.com
+bunx cdp-browser@0.1.1 nav https://example.com
 ```
 
 ## Command reference

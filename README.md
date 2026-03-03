@@ -94,7 +94,7 @@ npx -y cdp-browser eval "document.title"
 Pin a version when needed:
 
 ```bash
-npx -y cdp-browser@0.1.0 nav https://example.com
+npx -y cdp-browser@0.1.1 nav https://example.com
 ```
 
 **bunx**
@@ -108,19 +108,19 @@ bunx cdp-browser eval "document.title"
 Pin a version when needed:
 
 ```bash
-bunx cdp-browser@0.1.0 nav https://example.com
+bunx cdp-browser@0.1.1 nav https://example.com
 ```
 
 #### Skill installation for global pattern
 
 Install exactly one skill file as `.agents/skills/cdp-browser/SKILL.md`.
 
-Option A: install with Skills CLI (agent-level global install):
+Option A: install with Skills CLI
 
 ```bash
-npx -y skills add cdp-browser -g
+npx -y skills add sids/cdp-browser -g
 # or
-bunx skills add cdp-browser -g
+bunx skills add sids/cdp-browser -g
 ```
 
 Option B: copy one of the global skill variants manually:
